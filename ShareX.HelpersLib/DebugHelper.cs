@@ -34,7 +34,7 @@ namespace ShareX.HelpersLib
 
         public static void Init(string logFilePath)
         {
-            Logger = new Logger(logFilePath);
+            Logger = new Logger();
         }
 
         public static void WriteLine(string message = "")
